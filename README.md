@@ -17,7 +17,7 @@ We're going to review what we just learned in the previous lesson on git.
 
 ```ruby
 it 'initializes an empty git repository' do
-  expect('__').to eq(@answers[0]) 
+  expect(is_correct('__', 0)).to eq(true) 
 end
 ```
 
