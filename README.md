@@ -3,7 +3,7 @@ tags: prework, git
 languages: ruby
 ---
 
-# Prework Bash Challenge
+# Prework Git Challenge
 
 We're going to review what we just learned in the previous lesson on git.
 
