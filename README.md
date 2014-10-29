@@ -13,15 +13,15 @@ We're going to review what we just learned in the previous lesson on git.
 
 2. Open up the file in the `spec` directory called `git_challenge_spec.rb`. This is our RSpec file where the tests for this challenge live. You'll be inputting your answers on this file.
 
-3. Fill in the blanks (wherever you see '__') with the your answers. Your answer should be in quotes, for eg: "git clone". Let's take a look at the first question:
+3. Within each test, you'll see something like this:
 
 ```ruby
-it 'initializes an empty git repository' do
-  expect(is_correct('__', 0)).to eq(true) 
-end
+your_answer = __
 ```
 
-There are two sides: the expectation (what you'll be filling in) and what that should be equal to. The part in `.to eq()` is just what we're checking your answer against.
+Replace the __ with your answer in quotes, like this `"git clone"`.
+
+The test will be looking at your answer and comparing it to the correct answer.
 
 4. When you've finished answering all of the questions, run `rspec` to make sure you're seeing all green.
 
