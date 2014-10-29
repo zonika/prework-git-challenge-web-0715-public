@@ -23,7 +23,7 @@ Replace the __ with your answer in quotes, like this `"git clone"`.
 
 The test will be looking at your answer and comparing it to the correct answer.
 
-4. When you've finished answering all of the questions, run `rspec` to make sure you're seeing all green.
+4. When you've finished answering all of the questions, run `ironboard` to make sure you're seeing all green.
 
 5. When you're finished (all of the tests pass and you're seeing green in your terminal), put your git skills to use!
 * Stage the changes you made: `git add .`
