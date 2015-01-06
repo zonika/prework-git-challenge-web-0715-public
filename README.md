@@ -19,7 +19,15 @@ We're going to review what we just learned in the previous lesson on git.
 your_answer = __
 ```
 
-Replace the __ with your answer in quotes, like this `"git clone"`.
+Replace the __ with your answer in quotes, like this `"git clone"`. If you need to use quotes within your answer, you can nest single quotes inside of double quotes OR double quotes inside of single quotes. See below:
+
+```ruby
+# double inside of single
+your_answer = 'Then she said, "Sounds like a plan!"'
+
+# single inside of double
+your_answer = "Then she said, 'Sounds like a plan!'"
+```
 
 The test will be looking at your answer and comparing it to the correct answer.
 
